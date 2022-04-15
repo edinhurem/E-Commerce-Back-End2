@@ -5,10 +5,6 @@ const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-DB_USER = "root";
-DB_PW = "";
-DB_NAME = "ecommerce_db";
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
