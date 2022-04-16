@@ -44,7 +44,7 @@ router.post("/", async (req, res) => {
     if (data === null) {
       //no record found so create a new record
       data = await Category.create({
-        category: req.body.name,
+        category_name: req.body.name,
       });
     }
 

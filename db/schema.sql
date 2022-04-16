@@ -9,7 +9,7 @@ USE ecommerce_db;
 
 CREATE TABLE Category (
   id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  category varchar(32) NOT NULL
+  category_name varchar(32) NOT NULL
 );
 
 CREATE TABLE Product (

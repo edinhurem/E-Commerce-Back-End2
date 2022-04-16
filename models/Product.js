@@ -11,7 +11,6 @@ Product.init(
   {
     id: {
       type: DataTypes.INTEGER,
-      allowNull: false,
       primaryKey: true,
     },
     category_id: {
